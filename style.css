@@ -596,7 +596,7 @@ font-size: 16px;
 .nav-right{
     display: none;
 }
-
+/*
 .sidepanel  {
     width: 0;
     position: fixed;
@@ -649,7 +649,7 @@ font-size: 16px;
     margin-left: 6pc;
     margin-top: 1.2pc;
   }
-
+*/
 
 
 
@@ -738,7 +738,7 @@ font-size: 16px;
     display: none;
 }
 
-.sidepanel  {
+/*.sidepanel  {
     width: 0;
     position: fixed;
     z-index: 1;
@@ -790,7 +790,7 @@ font-size: 16px;
     margin-left: 5pc;
     margin-top: 1.2pc;
   }
-
+*/
 
 
 .page{
