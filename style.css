@@ -263,6 +263,7 @@ a:hover{
 
 .first-image img{
     width: 62vw;
+    height: 30vh;
 }
 
 }
@@ -405,7 +406,7 @@ nav{
 
 .first-image img{
     width: 62vw;
-    height: 40vh;
+    height: 30vh;
 }
 
 .first-left button{
@@ -435,7 +436,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 50vw;
-    height: 50vh;
+    height: 30vh;
 }
 
 .first-future{
