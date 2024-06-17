@@ -419,7 +419,16 @@ nav{
     
 }
 
+@media (max-width:1108px) and (min-width:768px){
 
+.first-image img{
+    height: 25vh;
+    margin-bottom: 6pc;
+}
+
+
+
+}
 
 
 @media (max-width:768px) and (min-width:554px){
