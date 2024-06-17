@@ -54,6 +54,49 @@ nav{
     margin-top: 1.6pc;
 }
 
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: none;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--Verydarkblue);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: var(--red);
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    display: none;
+  }
+  
+
 a{ 
     color: var(--Verydarkblue);
     text-decoration: none;
@@ -553,6 +596,63 @@ font-size: 16px;
 .nav-right{
     display: none;
 }
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--Verydarkblue);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: var(--red);
+  }
+  
+  .sidepanel{
+    position: absolute;
+    top: 0;
+    left: 8pc;
+
+  } 
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 26px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    display: flex;
+    background-color: var(--white);
+    margin-left: 6pc;
+    margin-top: 1.2pc;
+  }
+
+
+
+
 .page{
     display: flex;
     width: 100vw;
@@ -637,6 +737,62 @@ font-size: 16px;
 .nav-right{
     display: none;
 }
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--Verydarkblue);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: var(--red);
+  }
+  
+  .sidepanel{
+    position: absolute;
+    top: 0;
+    left: 4.5pc;
+
+  } 
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 26px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    display: flex;
+    background-color: var(--white);
+    margin-left: 5pc;
+    margin-top: 1.2pc;
+  }
+
+
+
 .page{
     display: flex;
     width: 100vw;
