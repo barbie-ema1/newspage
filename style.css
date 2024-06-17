@@ -241,6 +241,34 @@ a:hover{
 }
 
 
+
+@media (max-width:1280px) and (min-width:852px){
+
+.first-image img{
+    width: 70vw;
+    height: 38vh;
+}
+
+.firstbox{
+    margin-top: 6pc;
+}
+
+.last{
+    margin-top: 8pc;
+}
+
+}
+
+@media (max-width:1187px){
+
+.first-image img{
+    width: 62vw;
+}
+
+}
+
+
+
 @media  (min-width:738px) and (max-width:1024px) {
 
 body{
@@ -337,6 +365,7 @@ nav{
 
 .last{
     margin-left: 1.6pc;
+    margin-top: 12pc;
 }
 
 .lastcard{
@@ -365,6 +394,33 @@ nav{
 
 }
 
+@media (max-width:984px) and (min-width:778px) {
+.first{
+    margin-bottom: 5pc;
+}
+.firstbox{
+    width: 60vw;
+    margin-top: 8pc;
+}
+
+.first-image img{
+    width: 62vw;
+    height: 40vh;
+}
+
+.first-left button{
+    height: 40%;
+    padding: 10px 10px;
+}
+
+.last{
+    margin-top: 9pc;
+}
+    
+}
+
+
+
 
 @media (max-width:768px) and (min-width:554px){
 
@@ -372,11 +428,14 @@ body{
     overflow-x: hidden;
 }
 
+.first{
+    margin-bottom: 8pc;
+}
 .first-image{
     display: flex;
     flex-direction: row;
-    width: 24%;
-    height: 24%;
+    width: 50vw;
+    height: 50vh;
 }
 
 .first-future{
@@ -400,14 +459,14 @@ body{
 
 .first-left button{
     margin: 4px 4px;
-    padding: 4px 10px;
+    padding: 7px 10px;
     background-color: var(--red);
     color: var(--Verydarkblue);
     border-radius: 2px;
     border: none;
     width: 60%;
     margin-top: 0.2pc;
-    height: 40%;
+    height: 50%;
     cursor: pointer;
     margin-left: 2pc;
     
@@ -417,7 +476,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 32%;
-    margin-left: 5.5pc;
+    margin-left: 7pc;
     background-color: var(--Verydarkblue);
     color: var(--white);
     height: 30%;
@@ -440,6 +499,7 @@ font-size: 16px;
 
 .last{
     margin-left: 1.6pc;
+    
 }
 
 .lastcard{
@@ -485,7 +545,7 @@ font-size: 16px;
 }
 .page{
     display: flex;
-    width: 90%;
+    width: 100vw;
     flex-direction: column;
     overflow-x: hidden;
 }
@@ -503,7 +563,7 @@ font-size: 16px;
 }
 
 .first-image img{
-    width: 85vw;
+    width: 90vw;
     height: 50vh;    
     display: flex;
     flex-direction: column;
@@ -515,9 +575,128 @@ font-size: 16px;
     width: 100%;
 }
 
+.first-future{
+    width: 90%;
+}
+
+.first-left{
+    margin-left: -2pc;
+    font-size: 16px;
+    word-spacing: 2px;
+
+
+}
+
+.first-left button{
+    width: 45vw;
+    height: 8vh;
+    padding: 6px 6px;
+    margin-bottom: 2pc;
+}
+
+
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-bottom: 6pc;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 6pc;
+    margin-left: 0;
+}
+
+.lastcard{
+  margin-left: -5.5pc;
+  width: 60vw;
+}
 
 
 
+}
 
+@media (min-width:320px) and (max-width:554px){
+.nav-left{
+    margin-left: 0.5pc;
+}
+
+.nav-right{
+    display: none;
+}
+.page{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.first, .rightbox, .pageend{
+    overflow-x: hidden;
+    overflow: hidden;
+    margin-left: 1pc;
+}
+
+.first-image img{
+    width: 90vw;
+    height: 50vh;    
+    display: flex;
+    flex-direction: column;
+}
+
+.firstbox, .first-future, .first-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.first-future{
+    width: 90%;
+}
+
+.first-left{
+    margin-left: -2pc;
+    font-size: 16px;
+    word-spacing: 2px;
+
+
+}
+
+.first-left button{
+    width: 45vw;
+    height: 8vh;
+    padding: 6px 6px;
+    margin-bottom: 2pc;
+}
+
+
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-bottom: 6pc;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 6pc;
+    margin-left: 0;
+}
+
+.lastcard{
+  margin-left: -5.5pc;
+  width: 60vw;
+}
 
 }
